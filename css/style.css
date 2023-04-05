@@ -1,0 +1,90 @@
+body{
+  background: linear-gradient(to right,rgb(252, 172, 186),rgb(241, 71, 71));
+}
+/* box*/
+.box{
+  width: 400px;
+  height: 600px;
+  background-color: white;
+  border-radius: 15px;
+  margin: auto;
+}
+.sinup{
+  text-align: center;       /*box kuda varum*/
+  margin-top: 50px;
+}
+
+#sup{
+  padding-top: 50px;            /*sign up mattum*/
+}
+
+#sup:hover{
+  color: rgb(84, 163, 232);    /*hover color and sixe*/
+  font-size: 26px;
+}
+
+.username{
+  margin-left: 110px; 
+}
+.username:hover{
+  border-bottom: 20px;
+}
+
+.email{
+  margin-left: 110px;
+}
+
+
+.password{
+  margin-left: 110px;
+}
+
+
+.agr{
+  margin-left: 70px;
+  margin-top: 30px;
+}
+
+
+.reg{
+  margin-left: 160px;
+  margin-top: 40px;
+  
+  
+}
+.reg>input{
+  padding: 12px 26px;
+  margin-left: -10px;
+  border: none;
+  border-radius: 12px;
+  color: black;
+  cursor: progress;
+  transition: all 0.6s;
+}
+.reg>input:hover{
+  /* background-color: rgb(0, 0, 0);
+  color: white;
+} */
+filter:invert(100%);
+}
+.reg>input:active{
+  opacity: 0.6;
+}
+
+/* #rege{
+  color: rgb(238, 17, 10);
+
+} */
+/* #rege:hover{
+  width: 90px;
+  height: 20px;
+} */
+
+
+#ds{
+  border: none;
+  outline: none;
+  border-bottom: 2px solid black;
+  padding: 4px 34px;
+  }
+
